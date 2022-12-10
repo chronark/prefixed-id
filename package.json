@@ -1,0 +1,23 @@
+{
+  "name": "@chronark/prefixed-id",
+  "version": "0.4.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node --loader=tsx --test ./**/*.test.ts ",
+    "build": "tsup",
+    "fmt": "rome check . --apply-suggested && rome format . --write"
+  },
+  "keywords": [],
+  "author": "Andreas Thomas",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.8.5",
+    "rome": "^11.0.0",
+    "tsup": "^6.2.3",
+    "tsx": "^3.10.1",
+    "typescript": "^4.8.4"
+  }
+}
