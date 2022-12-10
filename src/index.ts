@@ -34,7 +34,7 @@ export type Config<TPrefixes extends string> = {
 	alphabet?: string;
 
 	/**
-	 * Either window.crypto or crypto from node
+	 * Either window.crypto or crypto imported from node
 	 *
 	 * @default window?.crypto
 	 *
@@ -120,7 +120,7 @@ export class IdGenerator<TPrefixes extends string> {
 	}
 
 	/**
-	 * Generate a new unique base58 encoded uuid with a defined prefix
+	 * Generate a new unique id with the given prefix
 	 *
 	 * @returns xxxxxx_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 	 */
