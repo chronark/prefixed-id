@@ -6,11 +6,15 @@
 <br/>
 
 A minimal library to generate Stripe inspired predixed ids for your application.
+Prefixed ids look like this: `pre_JUbF9zRGz9hrFXUyNJLXcowD9GsqCD`. They can be very useful if you
+have different entities and want to quickly identify them.
+
 
 Works in
 - Nodejs
 - Cloudflare Workers
 - Vercel Edge
+
 
 ## Install
 
