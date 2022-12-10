@@ -193,14 +193,3 @@ export class IdGenerator<TPrefixes extends string> {
 		return out;
 	}
 }
-
-import nodeCrypto from "node:crypto";
-
-const idGenerator = new IdGenerator({
-	prefixes: {
-		user: "u",
-	},
-	crypto: nodeCrypto,
-});
-
-console.log(idGenerator.id("user"));
